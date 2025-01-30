@@ -1,10 +1,6 @@
-import React from "react";
-
 const Home = () => {
   return (
-    <div>
-      <h1>Hello Word!</h1>
-    </div>
+    <div className="flex flex-col items-center justify-center min-h-screen"></div>
   );
 };
 
