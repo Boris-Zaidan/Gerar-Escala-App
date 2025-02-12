@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import img from "../../assets/image/LogoTipo.png";
 import Button from "../../components/Button";
 
@@ -19,11 +20,11 @@ const Home = () => {
         <h2 className="text-3xl md:text-5xl font-bold text-textColor  md:font-semibold">
           Ministério
         </h2>
-        <ul className="flex gap-5 mt-6 text-textColor md:gap-10">
+        <ul className="flex gap-3 mt-6 text-textColor md:gap-10">
           <li className="text-base font-medium  md:text-3xl md:font-normal">
             Pr. Oséias Fernandes
           </li>
-          <li className="text-base font-medium md:text-3xl md:font-normal">
+          <li className="text-base font-medium  md:text-3xl md:font-normal">
             Pra. Marcileia Fernandes
           </li>
         </ul>
@@ -32,10 +33,12 @@ const Home = () => {
         </span>
       </section>
 
-      <div className="w-full  h-1/6 flex justify-end mr-3 mt-3  sm:w-5/6 md:mb-3  md:w-full md:h-1/4 md:flex md:items-end md:justify-end lg:max-w-5xl lg:flex lg:justify-end lg:p-0">
-        <Button className="hover:bg-buttonColor/75  py-2.5 px-4">
-          Avançar
-        </Button>
+      <div className="w-full  h-1/6 flex justify-end mr-1s mt-5  sm:w-5/6 md:mb-3  md:w-full md:h-1/4 md:flex md:items-end md:justify-end lg:max-w-5xl lg:flex lg:justify-end lg:p-0">
+        <Link to="/Welcome" className="contents">
+          <Button className="hover:bg-buttonColor/75  py-2.5 px-4 ">
+            Avançar
+          </Button>
+        </Link>
       </div>
     </main>
   );
