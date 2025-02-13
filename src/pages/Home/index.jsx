@@ -33,7 +33,7 @@ const Home = () => {
         </span>
       </section>
 
-      <div className="w-full  h-1/6 flex justify-end mr-1s mt-5  sm:w-5/6 md:mb-3  md:w-full md:h-1/4 md:flex md:items-end md:justify-end lg:max-w-5xl lg:flex lg:justify-end lg:p-0">
+      <div className="w-full  h-1/6 flex justify-end mr-1 mt-5  sm:w-5/6 md:mb-3  md:w-full md:h-1/4 md:flex md:items-end md:justify-end lg:max-w-5xl lg:flex lg:justify-end lg:p-3 lg:mr-36">
         <Link to="/Welcome" className="contents">
           <Button className="hover:bg-buttonColor/75  py-2.5 px-4 ">
             Avançar
