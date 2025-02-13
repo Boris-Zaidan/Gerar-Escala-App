@@ -1,5 +1,6 @@
 import Button from "../../components/Button";
 import Logo from "../../assets/Logo/LogoHeader.png";
+import { Link } from "react-router-dom";
 
 const Welcome = () => {
   return (
@@ -18,9 +19,11 @@ const Welcome = () => {
           </h1>
         </section>
         <section className="w-full flex justify-end ">
-          <Button className="hover:bg-buttonColor/75  py-2.5 px-4">
-            Avançar
-          </Button>
+          <Link to="/Login" className="contents">
+            <Button className="hover:bg-buttonColor/75  py-2.5 px-4">
+              Avançar
+            </Button>
+          </Link>
         </section>
       </main>
     </div>
